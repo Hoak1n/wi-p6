@@ -618,6 +618,22 @@ footer {
   border-radius: 8px;
 }
 
+.error-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  text-align: center;
+  padding: 20px;
+}
+
+.error-page h1 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
 /* Tablet */
 @media (min-width: 768px) {
   body {
@@ -885,5 +901,9 @@ footer {
     transform: translateY(-5px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
+  }
+
+  .error-page h1 {
+    font-size: 2.5rem;
   }
 }

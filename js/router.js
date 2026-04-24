@@ -33,7 +33,12 @@ export function createRouter() {
         initFormLogic();
       }
     } else {
-      root.innerHTML = "<h1> 404 - Сторінка не знайдена </h1>";
+      root.innerHTML = `
+    <div class="error-page">
+      <h1>404 - Сторінка не знайдена</h1>
+      <p>Спробуйте повернутися на головну</p>
+    </div>
+  `;
     }
   };
 
