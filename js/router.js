@@ -7,7 +7,7 @@ import { fetchPosts } from "./api.js";
 export function createRouter() {
   const render = (path) => {
     const root = document.getElementById("app");
-    const repoName = "/wi-p5";
+    const repoName = "/wi-p6";
 
     let cleanPath = path.replace(repoName, "");
 
